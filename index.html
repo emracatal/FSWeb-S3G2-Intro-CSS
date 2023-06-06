@@ -1,55 +1,91 @@
 <!-- Aşağıdaki içerikleri CSS ile biçimlendirerek etiketleyin. -->
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-<!-- Link your CSS stylesheet -->
-    
-</head>
-<body>
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-	
-      <!-- "header_img.jpg" -->
-	  
-      Peri Bacaları Tanıtımı
-	  
-	  Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.
-	 Sürekli açık. Ziyaret için rezervasyona gerek yoktur.
-	 
-	 
-	  
-      Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan Kapadokya’yı gezerken derin bir merak duyduğunuzu biliyoruz. ‘ Peri bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin aklına. 
+  <head>
+    <!-- Link your CSS stylesheet -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <div class="width-clamp">
+        <nav class="max-container">
+          <a class="btn bg_orange sola_kaydir" href="#">Gezinizi Planlayın</a>
+          <a class="btn" href="#">Bilgi edinin</a>
+          <a class="btn bg_yellow saga_kaydir" href="#">Karşılaştırın</a>
+        </nav>
+      </div>
+    </div>
+    <div class="hero width-clamp">
+      <div class="hero__img float--left">
+        <img src="./assets/header_img.jpg" alt="Kapadokya çok güzel" />
+      </div>
+      <div class="hero__cta">
+        <h1>Peri Bacaları Tanıtımı</h1>
+        <p>Gelin ve Nevşehir'in gizli güzelliklerini keşfedin.</p>
+        <p>Sürekli açık. Ziyaret için rezervasyona gerek yoktur.</p>
+      </div>
+    </div>
+    <div class="max-container main-text">
+      <p>
+        Sadece ülkemizin değil, dünyanın en gizemli yerlerinden biri olan
+        Kapadokya’yı gezerken derin bir merak duyduğunuzu biliyoruz. ‘ Peri
+        bacaları nasıl oluştu, insanlar peri bacalarının içlerini ustalıkla
+        nasıl oydu, bu yeraltı şehirlerini kimler yaptı, o kadar insan yerin
+        altında nasıl yaşadı ’ diye binlerce soru geliyor gezginin aklına.
+      </p>
+      <p>
+        Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik
+        havasının da şöyle düşündürdüğü biliyoruz; ‘Kapadokya eskiden perilerin
+        cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
+      </p>
+    </div>
+    <!--  "hot-air-balloon.svg" -->
+    <div class="max-container">
+      <div class="kart">
+        <img src="./assets/hot-air-balloon.svg" alt="" />
 
+        <p>
+          Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak
+          hava balonları ile yapılan turlar. Her sabah gün doğumundan önce
+          yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın
+          eşsiz güzellikteki manzaralarını havadan izlemek katılımcılar için
+          gerçekten <strong>olağanüstü ve rüya gibi bir deneyim.</strong>
+        </p>
+      </div>
+    </div>
+    <!--  "atv.svg" -->
+    <div class="max-container">
+      <div class="kart">
+        <img src="./assets/atv.svg" alt="" />
 
-     Peri bacaları oluşumunun bilimsel açıklaması olmasına rağmen mistik havasının da şöyle düşündürdüğü biliyoruz; ‘Kapadokya eskiden perilerin cenneti miydi, yoksa doğa bir mucize mi göstermek istedi!’
-     
-	 
-     <!--  "hot-air-balloon.svg" -->
-	
-	
-      Kapadokya denilince akla ilk gelen şeylerden birisi de şüphesiz sıcak hava balonları ile yapılan turlar. Her sabah gün doğumundan önce yüzlerce sıcak hava balonlarından oluşan konvoy ile Kapadokya’nın eşsiz güzellikteki manzaralarını havadan izlemek katılımcılar için gerçekten olağanüstü ve rüya gibi bir deneyim.
-		  
-	  
-     <!--  "atv.svg" -->
-	 
-	 
-      ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes için uygun bir aktivite olduğunu söylemeliyiz.
-	
-	
-	
-      <!-- "footer_img.png" -->
-      
-	
-	
-        Gezinizi Planlayın
-		
-        Bilgi edinin
-		
-        Karşılaştırın
-		
-</body>
+        <p>
+          ATV turları, Kapadokya’yı gezmenin heyecan verici, eğlenceli ve farklı
+          bir yoludur. Bölgenin eşsiz ve muhteşem vadileri, dünyanın en iyi ATV
+          turlarından birini deneyimlemenize fırsat verir. ATV turlarının herkes
+          için uygun bir aktivite olduğunu söylemeliyiz.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-content">
+        <!-- "footer_img.png" -->
+        <div class="content-img">
+          <img src="./assets/footer_img.jpg" alt="" />
+        </div>
+        <div class="max-container">
+          <nav>
+            <a class="btn bg_orange sola_kaydir" href="#">Gezinizi Planlayın</a>
+            <a class="btn" href="#">Bilgi edinin</a>
+            <a class="btn bg_yellow saga_kaydir" href="#">Karşılaştırın</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

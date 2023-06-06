@@ -1,0 +1,151 @@
+/*
+* {
+  border: 1px solid limegreen;
+  border-collapse: collapse;
+  background-color: rgba(rgba(120, 255, 170, 0.2), green, blue, alpha);
+}
+*/
+/* kenardaki boşlukları sıfırlamak için
+*/
+
+.hero {
+  min-height: 250px;
+  padding-top: 40px;
+}
+
+.hero__img {
+  width: 200px;
+  height: 200px;
+}
+.hero__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top left;
+  border-radius: 50%;
+}
+
+.hero__cta {
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+}
+.content--beige {
+  padding: 8px;
+  background-color: darksalmon;
+  color: white;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.menu {
+  text-align: center;
+  padding: 2rem;
+}
+.width-clamp {
+  max-width: 900px;
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+}
+* {
+  color: black;
+}
+h1 {
+  font-family: "Chelsea Market", cursive;
+}
+.btn {
+  display: inline-block;
+  background-color: #5ed3eb;
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.bg_orange {
+  background-color: #ff764e;
+}
+.bg_yellow {
+  background-color: #ffcd69;
+}
+.ortala {
+  margin: 0 auto;
+}
+nav a,
+nav a:visited,
+nav a:active,
+nav a:link {
+  text-decoration: none;
+}
+nav a:hover,
+nav a:active {
+  text-decoration: underline;
+}
+nav a:hover {
+  color: black;
+}
+
+.max-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.sola_kaydir {
+  float: left;
+}
+.saga_kaydir {
+  float: right;
+}
+
+nav {
+  margin: 10px 50px 10px 50px;
+  text-align: center;
+}
+
+.intro-img img {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  object-position: left top;
+}
+.intro {
+  min-height: 220px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+.intro-text {
+  padding-left: 200px;
+  text-align: center;
+  max-width: 550px;
+}
+
+.main-text {
+  background-color: #ddb9a3;
+  color: white;
+  text-align: center;
+}
+/*
+font-family: 'Chelsea Market', cursive;
+font-family: 'Roboto Mono', monospace;
+*/
+.kart {
+  width: 300px;
+  text-align: center;
+  margin: 10px auto;
+}
+.kart img {
+  width: 33%;
+}
+footer img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+}
+
+footer {
+  background-color: #f9e7dc;
+}
